@@ -6,8 +6,7 @@ For our running environment see requirements.txt
 <!-- 嵌入 HTML -->
 <div>
   <pre><code id="code-block" class="language-python">
-# 示例代码
-print("Hello, World!")
+python main.py
 </code></pre>
   <button id="copy-button" onclick="copyCode()">复制代码</button>
 </div>
