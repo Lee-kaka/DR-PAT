@@ -8,6 +8,5 @@ For our running environment see requirements.txt
   <pre><code id="code-block" class="language-python">
 python main.py
 </code></pre>
-  <button id="copy-button" onclick="copyCode()">复制代码</button>
 </div>
 
