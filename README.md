@@ -3,4 +3,4 @@ Recommender systems (RSs), as a data-driven way, have been widely applied in var
 # Requirements
 For our running environment see requirements.txt
 # Usage
-run main.py
+```python main.py```
