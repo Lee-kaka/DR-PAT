@@ -3,7 +3,6 @@ Recommender systems (RSs), as a data-driven way, have been widely applied in var
 # Requirements
 For our running environment see requirements.txt
 # Usage
-```python main.py```
 <!-- 嵌入 HTML -->
 <div>
   <pre><code id="code-block" class="language-python">
