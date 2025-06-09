@@ -12,23 +12,3 @@ print("Hello, World!")
   <button id="copy-button" onclick="copyCode()">复制代码</button>
 </div>
 
-<script>
-  // JavaScript 实现复制功能
-  function copyCode() {
-    // 获取代码块的内容
-    const codeBlock = document.getElementById('code-block');
-    const range = document.createRange();
-    range.selectNode(codeBlock);
-    window.getSelection().addRange(range);
-
-    try {
-      // 执行复制操作
-      document.execCommand('copy');
-    } catch (err) {
-      console.error('复制失败', err);
-    }
-
-    // 清除选区
-    window.getSelection().removeAllRanges();
-  }
-</script>
